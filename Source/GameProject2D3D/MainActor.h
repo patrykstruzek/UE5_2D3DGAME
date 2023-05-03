@@ -20,7 +20,7 @@ public:
 	AMainActor();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-<<<<<<< HEAD
+
 	class UStaticMeshComponent* AllHandle = nullptr;
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
@@ -28,7 +28,7 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	class USpringArmComponent* CameraHandle = nullptr;
-=======
+
 	TObjectPtr<UStaticMeshComponent> AllHandle = nullptr;
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
@@ -36,7 +36,6 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<USpringArmComponent> CameraHandle = nullptr;
->>>>>>> e36d8d907f614132a2f3ab55b3e8c52876dcc8dd
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UCapsuleComponent> CharacterCapsule = nullptr;
@@ -63,14 +62,13 @@ public:
 	TObjectPtr<UInputAction> SlashAction = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inputs")
-<<<<<<< HEAD
+
 	class UInputAction* DashAction;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inputs")
 	class UInputMappingContext* MappingContext;
-=======
+
 	TObjectPtr<UInputMappingContext> MappingContext = nullptr;
->>>>>>> e36d8d907f614132a2f3ab55b3e8c52876dcc8dd
 
 	UFUNCTION(BlueprintCallable)
 	void SetMappingContext();
