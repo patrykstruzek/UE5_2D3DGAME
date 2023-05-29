@@ -1,7 +1,7 @@
 # UE5_2D3DGAME
 
-[![Version](https://img.shields.io/badge/version-alpha-blue.svg)](https://semver.org)
-[![Build Status](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/patrykstruzek/notOS/actions)
+![Version](https://img.shields.io/badge/version-alpha-blue.svg)
+![Build Status](https://img.shields.io/badge/build-passing-green.svg)
 
 
 It is simple base for a platform game using UE5, but it is not longer supported.
